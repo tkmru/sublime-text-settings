@@ -1,0 +1,6 @@
+*.cache
+*_tmp
+encoding_cache.json
+Package Control.last-run
+FileHistory*.json
+Package Control.*-bundle
