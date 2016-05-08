@@ -1,0 +1,5 @@
+[
+    { "keys" : ["ctrl+shift+o"], "command": "side_bar_open_in_browser" },
+    { "keys": ["alt+shift+r"], "command": "quick_file_move" }
+]	
+
