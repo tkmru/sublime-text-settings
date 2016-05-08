@@ -5,7 +5,7 @@ function logging(){
     $*
 }
 
-SETTINGFILES=($(ls))
+SETTINGFILES=($(ls | grep -v 'README.md'))
 
 for FILE in ${SETTINGFILES[@]}; do
     if [ ! -f "~/Library/Application Support/Sublime Text 3/Packages/User/$FILE" ]; then
